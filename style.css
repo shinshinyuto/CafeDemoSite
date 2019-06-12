@@ -1,0 +1,410 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  color: #7A6E71;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none!important;
+}
+
+li a, li a:hover{
+  color: #cacaca;
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+}
+
+.header-nav{
+  margin: auto 190px;
+}
+
+.header-nav ul{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.header-nav ul li{
+  list-style: none;
+  padding: 15px 95px;
+  border-left: 0.7px solid #cacaca;
+}
+
+.header-nav ul li:last-child{
+  border-right: 0.7px solid #cacaca;
+}
+
+.heading-wrap{
+  text-align: center;
+}
+
+.heading-wrap img{
+  width: 100%;
+  height: 480px;
+  margin-bottom: 50px;
+}
+
+.heaing-text{
+  font-size: 36px;
+  color: #6E6E6E;
+  margin-top: 50px;
+}
+
+.heading-wrap p{
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.heading-wrap span{
+  color: #B45F04;
+}
+
+.pickups{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.pickups a, .pickups a:hover{
+  display: block;
+  width: 270px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 10px;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.pickups a h2{
+  width: 100%;
+  color: #6E6E6E;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.principle{
+  background-image: url('images/joshua-rodriguez-422768-unsplash.jpg');
+}
+
+.servise{
+  background-image: url('images/nathan-dumlao-1555017-unsplash.jpg');
+}
+
+.coffee{
+  background-image: url('images/cyril-saulnier-239467-unsplash.jpg');
+}
+
+.contact{
+  background-image: url('images/beads-bible-blur-236339.jpg');
+}
+
+.tab-wrap{
+  margin-top: 50px;
+}
+
+.tabs{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.tab{
+  display: block;
+  width: 240px;
+  height: 40px;
+  color: #6E6E6E;
+  background-color: #cacaca;
+  margin:  0 2px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.tab:hover{
+  color: inherit;
+}
+
+.red{
+  color: #fff;
+  background-color: #FE2E64;
+}
+
+.kijis-wrap{
+  margin: 50px 100px 0 100px;
+}
+
+.kiji-wrap .container .row{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.kiji{
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.kiju:nth-child(3), .kiju:nth-child(6){
+  margin-right: 0;
+}
+
+.article-content{
+  height: 320px;
+  border-radius: 6px;
+  padding-bottom: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+}
+
+.kiji p{
+  margin: 0;
+}
+
+.kiji img{
+  width:100%;
+  height: 225px;
+  margin-bottom: 20px;
+}
+
+.article-thumbnail{
+  position: relative;
+}
+
+.article-thumbnail p{
+  color: #fff;
+  background-color: #FE2E64;
+  border-radius: 10px;
+  margin: 0;
+  padding: 5px 10px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.title{
+  padding: 0 10px;
+}
+
+.pagenation{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+
+.pagenation .page-number{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.pagenation .page-number:first-child{
+  background-color: #FE2E64;
+}
+
+.page-number a{
+  color: #7A6E71;
+}
+
+.page-number a:hover{
+  color: #ecdcec;
+  text-decoration: none;
+}
+
+.page-number .white{
+  color: #fff;
+}
+
+.widget-wrap{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.widget{
+
+}
+
+.widget:last-child{
+  margin-right: 0;
+}
+
+.widget-wrap h3{
+  font-size: 18px;
+  font-weight: normal;
+  color: #7A6E71;
+  margin-bottom: 15px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #FE2E64;
+}
+
+.widget-wrap h3 span{
+  color: #FE2E64;
+}
+
+.about img{
+  width: 100%;
+  height: 200px;
+}
+
+.widget-text{
+  margin-top: 20px;
+}
+
+.categories{
+  margin-bottom: 40px;
+}
+
+.categories a, .tags a{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.categories a:not(:last-child){
+  border-bottom: 1px solid #000;
+}
+
+.categories i{
+  width: 12px;
+  height: 12px;
+  font-size: 5px;
+  line-height: 12px;
+  text-align: center;
+  color: #fff;
+  background-color: #83787A;
+  border-radius: 50%;
+  margin: 15px 10px 15px 0;
+}
+
+.categories p{
+  margin: 15px 0;
+}
+
+.tag-wrap{
+  margin-bottom: 70px;
+}
+
+.tags{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.tags a{
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: #F5F5F5;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.tags p{
+  margin: 0;
+}
+
+.tags a p, .tags a i{
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.tags a i{
+  color: #84797C;
+}
+
+.recommend{
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 20px;
+}
+
+.recommend-thumbnail{
+  width: 115px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+  position: relative;
+}
+
+.recommend-thumbnail{
+  background-image: url('images/bar-cafe-blur-bread-265661.jpg');
+}
+
+.recommend-thumbnail span{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #FE2E64;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.recommend h2{
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  color: #7A6E71;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.recommend-text{
+  width: 200px;
+}
+
+.recommend-text h4{
+  font-size: 14px;
+  color: #7A6E71;
+}
+
+.footer-inner{
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #7A6E71;
+}
+
+.footer-inner p{
+  font-size: 11px;
+  margin: 15px auto;
+}
